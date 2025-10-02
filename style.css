@@ -7,3 +7,40 @@
 body {
   font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+;
+}
+
+.header {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.navbar {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+footer {
+  background-color: #1f2937;
+}
