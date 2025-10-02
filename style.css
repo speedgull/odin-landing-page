@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  border: none;
 }
 
 body {
@@ -11,7 +12,14 @@ body {
 a {
   text-decoration: none;
   color: #e5e7eb;
-;
+}
+
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: 700;
+  padding: 5px 20px;
+  border-radius: 8px;
 }
 
 .header {
@@ -20,7 +28,7 @@ a {
   font-size: 18px;
 }
 
-.navbar {
+.navbar, .hero {
   padding: 16px;
   display: flex;
   justify-content: space-between;
@@ -40,6 +48,35 @@ ul {
   display: flex;
   gap: 16px;
 }
+
+.hero {
+  height: 400px;
+  gap: 48px;
+
+}
+
+.hero >* {
+  flex: 1;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero p {
+  margin-bottom: 8px;
+}
+
+.hero .image {
+  background-color: #8c8f95;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 footer {
   background-color: #1f2937;
